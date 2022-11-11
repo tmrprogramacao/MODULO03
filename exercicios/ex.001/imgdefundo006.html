@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img de fundo</title>
+    <style>
+        div.geral{
+            border: 1px dashed black;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            height: 1500px;
+            width: 1500px;
+            margin: auto;
+
+
+        }
+        div.comimg{
+            border: 1px solid black;
+            height: 500px;
+            width: 500px;
+        }
+        div#q1{
+            background-image: url(imgs/wallpaper002.jpg);
+            background-position: left top;
+        }
+        div#q2{
+            background-image: url(imgs/wallpaper002.jpg);
+            background-position: right top;
+        }
+        div#q3{
+            background-image: url(imgs/wallpaper002.jpg);
+            background-position: left bottom;
+        }
+        div#q4{
+            background-image: url(imgs/wallpaper002.jpg);
+            background-position: right bottom;
+        }
+    </style>
+</head>
+<body>
+    <div class="geral">
+        <div class="comimg" id="q1"></div>
+        <div class="comimg" id="q2"></div>
+        <div class="comimg" id="q3"></div>
+        <div class="comimg" id="q4"></div>
+    </div>
+</body>
+</html>
